@@ -1,4 +1,4 @@
-package com.junjun.util.spring.service;
+package org.junjun.util.spring.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,14 +1,13 @@
-package com.junjun.util.spring;
+package org.junjun.util.spring;
 
 import org.apache.log4j.Logger;
+import org.junjun.util.spring.config.AppConfig;
+import org.junjun.util.spring.service.TestService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.junjun.util.spring.config.AppConfig;
-import com.junjun.util.spring.service.TestService;
+public class AppLauncher {
 
-public class Launcher {
-
-	private final static Logger logger = Logger.getLogger(Launcher.class);
+	private final static Logger logger = Logger.getLogger(AppLauncher.class);
 
 	public static void main(String[] args) {
 		// use ClassPathXmlApplicationContext if your configuration is XML

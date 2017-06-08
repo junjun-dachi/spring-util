@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.junjun.util.spring</groupId>
+	<groupId>org.junjun.util.spring</groupId>
 	<artifactId>spring-way-standalone</artifactId>
 	<version>1.0.0</version>
 
@@ -50,7 +50,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.junjun.util.spring.Launcher</mainClass>
+							<mainClass>org.junjun.util.spring.AppLauncher</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>conf/</Class-Path>

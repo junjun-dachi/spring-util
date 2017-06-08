@@ -1,4 +1,4 @@
-package com.junjun.util.spring.service;
+package org.junjun.util.spring.service;
 
 public interface TestService {
 
