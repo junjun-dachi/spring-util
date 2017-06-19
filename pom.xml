@@ -8,7 +8,9 @@
 
 	<modules>
 		<module>spring-way-standalone</module>
-		<module>spring-boot-way-standalone</module>
+		<module>prevent-duplicate-form-submission-token-taglib</module>
+		<module>prevent-duplicate-form-submission-web</module>
+		<module>embedded-tomcat-with-spring</module>
 	</modules>
 
 </project>

@@ -11,7 +11,8 @@
 			<unpack>false</unpack>
 			<outputDirectory>lib</outputDirectory>
 			<excludes>
-				<exclude>${project.artifactId}-${project.version}</exclude>
+				<exclude>${project.groupId}:${project.artifactId}
+				</exclude>
 			</excludes>
 		</dependencySet>
 	</dependencySets>
@@ -33,5 +34,30 @@
 				<include>*.properties</include>
 			</includes>
 		</fileSet>
+
+		<fileSet>
+			<directory>src/main/webapp</directory>
+			<outputDirectory>static</outputDirectory>
+			<includes>
+				<include>*/**</include>
+			</includes>
+		</fileSet>
+
+		<fileSet>
+			<directory>.</directory>
+			<outputDirectory>logs</outputDirectory>
+			<excludes>
+				<exclude>*/**</exclude>
+			</excludes>
+		</fileSet>
+
+		<fileSet>
+			<directory>.</directory>
+			<outputDirectory>temp</outputDirectory>
+			<excludes>
+				<exclude>*/**</exclude>
+			</excludes>
+		</fileSet>
+
 	</fileSets>
 </assembly>
